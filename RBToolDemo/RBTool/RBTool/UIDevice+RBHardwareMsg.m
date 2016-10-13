@@ -9,7 +9,6 @@
 #import "UIDevice+RBHardwareMsg.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
-
 #import <sys/socket.h>
 #import <sys/param.h>
 #import <sys/mount.h>
