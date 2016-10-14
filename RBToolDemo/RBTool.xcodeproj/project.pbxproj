@@ -28,6 +28,7 @@
 		3D5B753A1DAE6CD0008C132C /* NSDateFormatter+RBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B75391DAE6CD0008C132C /* NSDateFormatter+RBHelper.m */; };
 		3D5B753D1DAF28D2008C132C /* NSObject+RBSSIDMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B753C1DAF28D2008C132C /* NSObject+RBSSIDMsg.m */; };
 		3D5B75401DAF2C9A008C132C /* NSObject+RBFilterNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B753F1DAF2C9A008C132C /* NSObject+RBFilterNull.m */; };
+		6664152FB8D8FEBB5510C17E /* libPods-RBTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F21EFB4D9848E45E6E0AE2 /* libPods-RBTool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,10 @@
 		3D5B753C1DAF28D2008C132C /* NSObject+RBSSIDMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RBSSIDMsg.m"; sourceTree = "<group>"; };
 		3D5B753E1DAF2C9A008C132C /* NSObject+RBFilterNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RBFilterNull.h"; sourceTree = "<group>"; };
 		3D5B753F1DAF2C9A008C132C /* NSObject+RBFilterNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RBFilterNull.m"; sourceTree = "<group>"; };
+		3D69F99D1DB0BE83002D8B05 /* NSObject+RBPodTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RBPodTools.h"; sourceTree = "<group>"; };
+		994467E8BD94AD4E017041A2 /* Pods-RBTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBTool/Pods-RBTool.release.xcconfig"; sourceTree = "<group>"; };
+		D3F21EFB4D9848E45E6E0AE2 /* libPods-RBTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RBTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB6F5ED46BAABC26A8C27C5 /* Pods-RBTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBTool/Pods-RBTool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6664152FB8D8FEBB5510C17E /* libPods-RBTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +130,8 @@
 				3D5B751A1DAE6B78008C132C /* RBToolTests */,
 				3D5B75251DAE6B78008C132C /* RBToolUITests */,
 				3D5B74FF1DAE6B78008C132C /* Products */,
+				ACE75A0BCFC77E31A08694FF /* Pods */,
+				A7C4C01D951B19D36A4A9E5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,8 +217,26 @@
 				3D27B8BE1DAF67440088894E /* UIDevice+RBHardwareMsg.m */,
 				3D27B8B71DAF629E0088894E /* UIView+RBLayoutExtension.h */,
 				3D27B8B81DAF629E0088894E /* UIView+RBLayoutExtension.m */,
+				3D69F99D1DB0BE83002D8B05 /* NSObject+RBPodTools.h */,
 			);
 			path = RBTool;
+			sourceTree = "<group>";
+		};
+		A7C4C01D951B19D36A4A9E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3F21EFB4D9848E45E6E0AE2 /* libPods-RBTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACE75A0BCFC77E31A08694FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6F5ED46BAABC26A8C27C5 /* Pods-RBTool.debug.xcconfig */,
+				994467E8BD94AD4E017041A2 /* Pods-RBTool.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5B752B1DAE6B78008C132C /* Build configuration list for PBXNativeTarget "RBTool" */;
 			buildPhases = (
+				8EC710BC2D09848FF5736285 /* [CP] Check Pods Manifest.lock */,
 				3D5B74FA1DAE6B78008C132C /* Sources */,
 				3D5B74FB1DAE6B78008C132C /* Frameworks */,
 				3D5B74FC1DAE6B78008C132C /* Resources */,
+				2D8BAA2405AD6DA74C9699DA /* [CP] Embed Pods Frameworks */,
+				D0B16340A282C6CEDFE4918D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,6 +367,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D8BAA2405AD6DA74C9699DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RBTool/Pods-RBTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC710BC2D09848FF5736285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B16340A282C6CEDFE4918D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RBTool/Pods-RBTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D5B74FA1DAE6B78008C132C /* Sources */ = {
@@ -498,6 +575,7 @@
 		};
 		3D5B752C1DAE6B78008C132C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB6F5ED46BAABC26A8C27C5 /* Pods-RBTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -510,6 +588,7 @@
 		};
 		3D5B752D1DAE6B78008C132C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994467E8BD94AD4E017041A2 /* Pods-RBTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
