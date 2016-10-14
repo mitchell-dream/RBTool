@@ -15,6 +15,7 @@
 		3D27B8B91DAF629E0088894E /* UIView+RBLayoutExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B8B81DAF629E0088894E /* UIView+RBLayoutExtension.m */; };
 		3D27B8BC1DAF63260088894E /* NSDate+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B8BB1DAF63260088894E /* NSDate+RBExtension.m */; };
 		3D27B8BF1DAF67440088894E /* UIDevice+RBHardwareMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B8BE1DAF67440088894E /* UIDevice+RBHardwareMsg.m */; };
+		3D5206891DB080BA005D7C25 /* NSObject+RBKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5206881DB080BA005D7C25 /* NSObject+RBKeychain.m */; };
 		3D5B75031DAE6B78008C132C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B75021DAE6B78008C132C /* main.m */; };
 		3D5B75061DAE6B78008C132C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B75051DAE6B78008C132C /* AppDelegate.m */; };
 		3D5B75091DAE6B78008C132C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B75081DAE6B78008C132C /* ViewController.m */; };
@@ -63,6 +64,8 @@
 		3D27B8BB1DAF63260088894E /* NSDate+RBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RBExtension.m"; sourceTree = "<group>"; };
 		3D27B8BD1DAF67440088894E /* UIDevice+RBHardwareMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+RBHardwareMsg.h"; sourceTree = "<group>"; };
 		3D27B8BE1DAF67440088894E /* UIDevice+RBHardwareMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+RBHardwareMsg.m"; sourceTree = "<group>"; };
+		3D5206871DB080BA005D7C25 /* NSObject+RBKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RBKeychain.h"; sourceTree = "<group>"; };
+		3D5206881DB080BA005D7C25 /* NSObject+RBKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RBKeychain.m"; sourceTree = "<group>"; };
 		3D5B74FE1DAE6B78008C132C /* RBTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5B75021DAE6B78008C132C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D5B75041DAE6B78008C132C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				3D5B753C1DAF28D2008C132C /* NSObject+RBSSIDMsg.m */,
 				3D5B753E1DAF2C9A008C132C /* NSObject+RBFilterNull.h */,
 				3D5B753F1DAF2C9A008C132C /* NSObject+RBFilterNull.m */,
+				3D5206871DB080BA005D7C25 /* NSObject+RBKeychain.h */,
+				3D5206881DB080BA005D7C25 /* NSObject+RBKeychain.m */,
 				3D27B8A21DAF39AD0088894E /* NSString+RBEncryption.h */,
 				3D27B8A31DAF39AD0088894E /* NSString+RBEncryption.m */,
 				3D27B8A81DAF5FC30088894E /* UIImage+RBCompress.h */,
@@ -342,6 +347,7 @@
 				3D27B8BC1DAF63260088894E /* NSDate+RBExtension.m in Sources */,
 				3D27B8AA1DAF5FC30088894E /* UIImage+RBCompress.m in Sources */,
 				3D27B8BF1DAF67440088894E /* UIDevice+RBHardwareMsg.m in Sources */,
+				3D5206891DB080BA005D7C25 /* NSObject+RBKeychain.m in Sources */,
 				3D27B8B01DAF60640088894E /* UIImage+RBEffect.m in Sources */,
 				3D5B75091DAE6B78008C132C /* ViewController.m in Sources */,
 				3D5B75061DAE6B78008C132C /* AppDelegate.m in Sources */,

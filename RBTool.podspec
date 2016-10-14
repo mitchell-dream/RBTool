@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RBTool"
-  s.version      = "0.1.0"          
+  s.version      = "1.0.0"          
   s.summary      = "RB 工具库"
   s.description  = "RB 的工具库"
   s.homepage     = "https://github.com/mcmengchen/RBTool.git"
