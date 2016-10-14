@@ -91,7 +91,7 @@
 		3D5B753C1DAF28D2008C132C /* NSObject+RBSSIDMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RBSSIDMsg.m"; sourceTree = "<group>"; };
 		3D5B753E1DAF2C9A008C132C /* NSObject+RBFilterNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RBFilterNull.h"; sourceTree = "<group>"; };
 		3D5B753F1DAF2C9A008C132C /* NSObject+RBFilterNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RBFilterNull.m"; sourceTree = "<group>"; };
-		3D69F99D1DB0BE83002D8B05 /* NSObject+RBPodTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RBPodTools.h"; sourceTree = "<group>"; };
+		3D69F9A01DB0C311002D8B05 /* RBPodTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBPodTools.h; sourceTree = "<group>"; };
 		994467E8BD94AD4E017041A2 /* Pods-RBTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBTool/Pods-RBTool.release.xcconfig"; sourceTree = "<group>"; };
 		D3F21EFB4D9848E45E6E0AE2 /* libPods-RBTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RBTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6F5ED46BAABC26A8C27C5 /* Pods-RBTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBTool/Pods-RBTool.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 				3D27B8BE1DAF67440088894E /* UIDevice+RBHardwareMsg.m */,
 				3D27B8B71DAF629E0088894E /* UIView+RBLayoutExtension.h */,
 				3D27B8B81DAF629E0088894E /* UIView+RBLayoutExtension.m */,
-				3D69F99D1DB0BE83002D8B05 /* NSObject+RBPodTools.h */,
+				3D69F9A01DB0C311002D8B05 /* RBPodTools.h */,
 			);
 			path = RBTool;
 			sourceTree = "<group>";
